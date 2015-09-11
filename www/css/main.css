@@ -1,0 +1,83 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+	margin:0;
+}
+
+h1{
+	text-align: center;
+	margin:0;
+	font-size: 29pt;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: ;
+	background-color: #d8c19d;
+}
+
+nav{
+	background-color:#8f6a30;
+}
+
+nav ol{
+	margin:0;
+	padding:0px;
+	display: inline-block;
+	text-decoration: none;
+	width:%;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+}
+
+.nav a:hover {
+	background-color:#5f3a00;
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	padding: 0.4em 0 0.5em;
+	color: #000;
+}
+
+figcaption{
+	margin: 0;
+	padding: 5em 10px 0.5em;
+	color: #fff;
+	font-size: 12pt;
+	text-align: center;
+	position:relative;
+	display: block;
+}
+
+.banner{
+	background: url("../images/maerten.jpg") center center / cover no-repeat;
+}
+
+h2{
+	text-align: center;
+	padding:10px;
+	margin-bottom: 0;
+}
+
+h3{
+	text-align: center;
+	padding: 10px;
+	margin-top: 0;
+}
+
+.wonders{
+	width: 100%;
+	padding: 10px;
+}
