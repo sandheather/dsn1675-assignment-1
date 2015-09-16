@@ -78,6 +78,9 @@ figcaption{
 
 .banner{
 	background: url("../images/maerten.jpg") center center / cover no-repeat;
+	width: 100%;
+}
+
 }
 
 h2{
