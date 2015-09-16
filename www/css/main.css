@@ -124,3 +124,9 @@ div{
 	padding-bottom: 0px;
 	display: block;
 }
+
+dt{
+	display: inline-block;
+	font-size: 16pt;
+	padding-right: 20px;
+}
