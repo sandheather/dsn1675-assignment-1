@@ -57,6 +57,15 @@ a{
 	color: #000;
 }
 
+.button{
+	background-color:#d8c19d;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 18px;
+	text-align: center;
+	margin: 10px;
+}
+
 figcaption{
 	margin: 0;
 	padding: 5em 10px 0.5em;
