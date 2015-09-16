@@ -81,6 +81,8 @@ figcaption{
 	width: 100%;
 }
 
+figure{
+	margin:0;
 }
 
 h2{
