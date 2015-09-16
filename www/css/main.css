@@ -158,3 +158,9 @@ ul li{
 	padding: 0;
 	display: inline-block;
 }
+
+.bottom{
+	background-color: #8f6a30;
+	margin: 0;
+	width: 100%;
+}
