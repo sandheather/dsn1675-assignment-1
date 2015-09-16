@@ -13,11 +13,11 @@ body{
 h1{
 	text-align: center;
 	margin:0;
-	font-size: 29pt;
+	font-size: 30pt;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-family: ;
 	background-color: #d8c19d;
+	font-family:'Gentium Book Basic', serif;
 }
 
 nav{
