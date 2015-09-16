@@ -33,6 +33,13 @@ nav ol{
 	font-family: 'Lato', sans-serif;
 }
 
+nav li{
+	display: inline-block;
+	width: 23%;
+	margin:0;
+	padding:0px;
+	text-align: center;
+}
 .nav a {
 	text-decoration: none;
 	display: block;
