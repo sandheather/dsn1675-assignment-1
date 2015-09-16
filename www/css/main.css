@@ -94,8 +94,13 @@ h2{
 
 h3{
 	text-align: center;
-	padding: 10px;
+	padding:10px;
+	margin-bottom: 0;
+	background-color: #d8c19d;
 	margin-top: 0;
+	font-size: 20pt;
+	font-family:'Gentium Book Basic', serif;
+}
 }
 
 .wonders{
