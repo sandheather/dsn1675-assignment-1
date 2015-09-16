@@ -116,3 +116,11 @@ h4{
 	padding: 10px;
 	padding-top: 20px;
 }
+
+div{
+	text-align: left;
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: block;
+}
