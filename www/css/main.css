@@ -187,3 +187,9 @@ footer p{
 	margin: 0;
 }
 
+.space{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	display: inline-block;
+}
