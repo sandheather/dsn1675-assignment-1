@@ -144,6 +144,9 @@ p{
 
 .tickets{
 text-align: center;
+display: inline-block;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 ol{
