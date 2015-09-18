@@ -20,6 +20,17 @@ h1{
 	font-family:'Gentium Book Basic', serif;
 }
 
+.buy{
+	position: absolute;
+	top: 20px;
+	right:10px;
+	font-size: 16pt;
+	background-color: #8f6a30;
+	border-radius: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 nav{
 	background-color:#8f6a30;
 }
