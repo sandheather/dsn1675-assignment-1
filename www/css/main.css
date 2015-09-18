@@ -114,12 +114,13 @@ h3{
 }
 
 h4{
-	text-align: center;
+	text-align: left;
 	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 0;
 	padding-top: 0;
 	font-size: 16pt;
+	padding-left: 40px;
 }
 
 .wonders{
@@ -150,7 +151,19 @@ dd{
 p{
 	padding-left: 10px;
 	padding-right: 10px;
+	text-align: left;
+}
+
+.atlantis{
+	background: url("../images/maroti.jpg") center center / cover no-repeat;
+	width: 100%;
+	margin: 0;
+	padding: 6em 15px 0.5em;
+	color: #fff;
+	font-size: 14pt;
 	text-align: center;
+	position:relative;
+	display: block;
 }
 
 .tickets{
@@ -158,6 +171,9 @@ text-align: center;
 display: inline-block;
 padding-left: 15px;
 padding-right: 15px;
+background-color: #8f6a30;
+border-radius: 18px;
+
 }
 
 ol{
@@ -168,7 +184,7 @@ ol{
 
 ul li{
 	list-style: none;
-	text-align: center;
+	text-align: left;
 	padding: 0;
 	display: inline-block;
 }
@@ -184,7 +200,7 @@ ul li{
 }
 
 li{
-	text-align: center;
+	text-align: left;
 }
 
 footer p{
