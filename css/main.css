@@ -53,7 +53,7 @@ nav{
 
 nav ol{
 	text-decoration: none;
-	font-size: 16pt;
+	font-size: 14pt;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -61,8 +61,7 @@ nav ol{
 }
 
 nav li{
-	display: inline-block;
-	width: 23%;
+	display: block;
 	margin:0;
 	padding:0px;
 	text-align: center;
@@ -86,26 +85,25 @@ a{
 
 .button{
 	background-color:#d8c19d;
-	display: inline-block;
+	display:block;
+	clear: both;
 	padding: 10px;
 	border-radius: 18px;
 	text-align: center;
 	margin: 10px;
 }
 
-figcaption{
+
+.banner{
+	background: url("../images/maerten.jpg") center center / cover no-repeat;
+	width: 100%;
 	margin: 0;
-	padding: 5em 10px 0.5em;
+	padding: 2em 15px 0.5em;
 	color: #fff;
 	font-size: 12pt;
 	text-align: center;
 	position:relative;
 	display: block;
-}
-
-.banner{
-	background: url("../images/maerten.jpg") center center / cover no-repeat;
-	width: 100%;
 }
 
 figure{
@@ -125,7 +123,7 @@ h3{
 	margin-bottom: 0;
 	background-color: #d8c19d;
 	margin-top: 0;
-	font-size: 20pt;
+	font-size: 18pt;
 	font-family:'Gentium Book Basic', serif;
 }
 
@@ -135,11 +133,48 @@ h4{
 	margin-top: 10px;
 	margin-bottom: 0;
 	padding-top: 0;
-	font-size: 16pt;
-	padding-left: 40px;
+	font-size: 14pt;
+	padding-left: 20px;
+}
+
+h5{
+	text-align: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-top: 0;
+	font-size: 14pt;
+	padding-left: 20px;
+}
+
+.left{
+	padding:0;
+}
+
+.right{
+	padding:0;
+}
+
+.middle{
+	padding:0;
+}
+
+.center{
+	padding:0;
 }
 
 .wonders{
+	width: 100%;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.wonders2{
+	width: 100%;
+	padding: 10px;
+	padding-top: 20px;
+}
+.wonders3{
 	width: 100%;
 	padding: 10px;
 	padding-top: 20px;
@@ -149,47 +184,86 @@ div{
 	text-align: left;
 	padding: 20px;
 	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 	display: block;
+	font-size: 12pt;
+}
+
+.date{
+	float: left;
+	text-align: center;
+}
+
+.builders{
+	float: left;
+	text-align: center;
+}
+
+.location{
+	float: left;
+	text-align: center;
 }
 
 dt{
-	display: inline-block;
-	font-size: 16pt;
-	padding-right: 20px;
+	padding-right: 5px;
+	font-weight: bold;
 }
 
 dd{
-
 	display: block;
+	margin: 0;
 }
 
 p{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	text-align: left;
+	font-size: 16px;
 }
 
 .atlantis{
 	background: url("../images/maroti.jpg") center center / cover no-repeat;
+
+}
+
+.show{
 	width: 100%;
 	margin: 0;
 	padding: 6em 15px 0.5em;
 	color: #fff;
-	font-size: 14pt;
+	font-size: 12pt;
 	text-align: center;
 	position:relative;
 	display: block;
+	background-image:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
+
+}
+.movie{
+	text-align: center;
+}
+
+.quote{
+	text-align: center;
 }
 
 .tickets{
-text-align: center;
-display: inline-block;
-padding-left: 15px;
-padding-right: 15px;
-background-color: #8f6a30;
-border-radius: 18px;
+	text-align: center;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #8f6a30;
+	margin-bottom: 10px;
+	margin-left: 2rem;
+}
 
+.times{
+	text-align: center;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #8f6a30;
+	margin-bottom: 10px;
+	margin-left: 0.2rem;
 }
 
 ol{
@@ -198,11 +272,9 @@ ol{
 	padding: 0;
 }
 
-ul li{
+ul{
 	list-style: none;
-	text-align: left;
-	padding: 0;
-	display: inline-block;
+
 }
 
 .bottom{
@@ -212,11 +284,16 @@ ul li{
 }
 
 .link{
-	padding: 10px;
+	padding-top: 10px;
 }
 
 li{
 	text-align: left;
+}
+
+ul{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 footer p{
@@ -224,10 +301,17 @@ footer p{
 	margin:0;
 }
 
+footer{
+	background-color: #d8c19d;
+	padding-top: 10px;
+}
+
 .contact{
-	text-align: center;
-	padding:10px;
+	text-align: left;
+	padding-left:20px;
+	padding-right: 20px;
 	margin: 0;
+	display: block;
 }
 
 .space{
@@ -237,9 +321,8 @@ footer p{
 	display: inline-block;
 }
 
-.logo{
-	position: absolute;
-	top: 20px;
-	width:13%;
-	padding-left: 10px;
+.event{
+	padding: 0;
+}
+
 }
