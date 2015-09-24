@@ -22,22 +22,28 @@ body{
 
 h1{
 	text-align: center;
-	margin:0;
-	font-size: 26pt;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin: 0;
+	font-size: 16pt;
+	padding: 10px 60px 10px 60px;
 	background-color: #d8c19d;
 	font-family:'Gentium Book Basic', serif;
+
 }
 
 .buy{
 	position: absolute;
-	top: 20px;
-	right:10px;
-	font-size: 16pt;
+	top: 18px;
+	right:15px;
+	font-size: 12pt;
 	background-color: #8f6a30;
 	border-radius: 10px;
-	padding-right: 10px;
+	padding:10px;
+}
+
+.logo{
+	position: absolute;
+	top: 20px;
+	width:20%;
 	padding-left: 10px;
 }
 
