@@ -66,6 +66,7 @@ nav li{
 	padding:0px;
 	text-align: center;
 }
+
 .nav a {
 	text-decoration: none;
 	display: block;
@@ -92,7 +93,6 @@ a{
 	text-align: center;
 	margin: 10px;
 }
-
 
 .banner{
 	background: url("../images/maerten.jpg") center center / cover no-repeat;
@@ -223,7 +223,6 @@ p{
 
 .atlantis{
 	background: url("../images/maroti.jpg") center center / cover no-repeat;
-
 }
 
 .show{
@@ -274,7 +273,6 @@ ol{
 
 ul{
 	list-style: none;
-
 }
 
 .bottom{
@@ -334,7 +332,6 @@ footer{
 		padding: 20px 50px 20px 50px;
 		background-color: #d8c19d;
 		font-family:'Gentium Book Basic', serif;
-
 	}
 
 	.buy{
@@ -362,8 +359,8 @@ footer{
 		background-color: #8f6a30;
 		margin-bottom: 10px;
 		margin-left: 3rem;
+	}
 
-}
 }
 
 @media only screen and (min-width: 32em){
@@ -457,7 +454,6 @@ footer{
 		background-color: #8f6a30;
 		margin: 0;
 		width: 100%;
-
 	}
 
 	ul{
@@ -679,6 +675,7 @@ footer{
 			.tickets{
 		margin-left: 14.5rem;
 	}
+
 }
 
 @media only screen and (min-width: 63em){
@@ -689,6 +686,7 @@ footer{
 		padding-top: 20px;
 		float: left;
 	}
+
 	.logo{
 		position: absolute;
 		top: 15px;
