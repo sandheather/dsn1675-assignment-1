@@ -366,4 +366,124 @@ footer{
 }
 }
 
+@media only screen and (min-width: 32em){
+
+	h1{
+		text-align: center;
+		margin: 0;
+		font-size: 23pt;
+	}
+
+	nav li{
+		display: inline-block;
+		margin:0;
+		padding-left:10px;
+		padding-right: 10px;
+		text-align: center;
+	}
+
+	.date{
+		float: left;
+		text-align: left;
+		padding-right: 10px;
+		width:33.33%;
+		display: inline-block;
+	}
+
+	.builders{
+		float:left;
+		text-align: left;
+		padding-right: 10px;
+		width:33.33%;
+		display: inline-block;
+	}
+
+	.location{
+		float:left;
+		text-align: left;
+		padding-right: 10px;
+		width:33.33%;
+		display: inline-block;
+	}
+
+	.when{
+		clear:both;
+		padding-right: 10px;
+		margin: 0;
+	}
+
+	.who{
+		clear:both;
+		padding-right: 10px;
+		margin: 0;
+	}
+
+	.place{
+		clear:both;
+		padding-right: 10px;
+		margin: 0;
+	}
+
+	dt{
+		padding-right: 5px;
+		font-weight: bold;
+		margin: 0;
+	}
+
+	dd{
+		margin: 0;
+	}
+
+	.tickets{
+		text-align: center;
+		display: inline-block;
+		padding-left: 15px;
+		padding-right: 15px;
+		background-color: #8f6a30;
+		margin-bottom: 10px;
+		margin-left: 5rem;
+	}
+
+	.contact{
+		text-align: left;
+		padding-left:20px;
+		padding-right: 20px;
+		margin: 0;
+		display: block;
+	}
+
+
+	.bottom{
+		background-color: #8f6a30;
+		margin: 0;
+		width: 100%;
+
+	}
+
+	ul{
+		padding-left: 20px;
+		padding-right: 20px;
+		display: inline-block;
+	}
+
+	li{
+		text-align: left;
+		display: inline-block;
+	}
+
+.link{
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+}
+
+	.logo{
+		position: absolute;
+		top: 15px;
+		width:15%;
+		padding-left: 10px;
+	}
+
+}
+
 }
