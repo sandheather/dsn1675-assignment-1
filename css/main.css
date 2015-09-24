@@ -644,4 +644,41 @@ footer{
 
 }
 
+@media only screen and (min-width: 57em){
+
+	.logo{
+		position: absolute;
+		top: 15px;
+		width:15%;
+		padding-left: 10px;
+	}
+
+	h1{
+		font-size: 29pt;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.buy{
+		position: absolute;
+		top: 18px;
+		right:15px;
+		font-size: 16pt;
+		background-color: #8f6a30;
+		border-radius: 10px;
+		padding:10px;
+	}
+
+	nav li{
+		display: inline-block;
+		margin:0;
+		padding-left:40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+			.tickets{
+		margin-left: 14.5rem;
+	}
+}
+
 }
