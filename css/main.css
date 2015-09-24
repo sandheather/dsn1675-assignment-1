@@ -681,4 +681,116 @@ footer{
 	}
 }
 
+@media only screen and (min-width: 63em){
+
+	.wonders{
+		width: 50%;
+		padding: 10px;
+		padding-top: 20px;
+		float: left;
+	}
+	.logo{
+		position: absolute;
+		top: 15px;
+		width:13%;
+		padding-left: 10px;
+	}
+
+	.right{
+		float: right;
+		width: 50%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.left{
+		float: left;
+		width: 50%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.center{
+		width: 50%;
+		text-align: center;
+		clear: both;
+	}
+
+	.info{
+		float:left;
+		padding-bottom: 0;
+	}
+
+	h4{
+		padding-bottom: 0;
+	}
+
+	.middle{
+		clear: both;
+		padding:0;
+		font-size: 14pt;
+	}
+
+	.tickets{
+		margin-left: 5rem;
+		font-size: 14pt;
+	}
+
+	.link{
+		padding-top: 10px;
+		font-size: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	li{
+		text-align: center;
+		font-size: 13pt;
+	}
+
+	h5{
+		text-align: center;
+	}
+
+	p{
+		font-size: 16pt;
+	}
+
+	h2{
+		font-size: 20pt;
+	}
+
+	h3{
+		font-size: 22pt;
+	}
+
+	h4{
+		font-size: 16pt;
+	}
+
+	h5{
+		font-size: 18pt;
+	}
+
+	dd{
+		font-size: 14pt;
+	}
+
+	dt{
+		font-size: 14pt;
+	}
+
+	.button{
+		font-size: 14pt;
+	}
+
+	.times{
+		font-size: 14pt;
+	}
+
+	.event{
+		margin-left: 19em;
+	}
+
+}
 }
